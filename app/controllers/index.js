@@ -1,11 +1,6 @@
 var router = require('express').Router()
+var users = require('./users')
 
-router.get('/', function (req, res) {
-  res.json({ message: 'YEAH! Seja Bem-Vindo a nossa API' })
-})
-
-/**
- * rotas aq
- */
+router.use('/users', users)
 
 module.exports = router
