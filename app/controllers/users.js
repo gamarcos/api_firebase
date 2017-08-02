@@ -21,4 +21,15 @@ router
       })
   })
 
+router.route('/:id')
+      .put(function (req, res) {
+        //TODO
+      })
+      .delete(function (req, res) {
+        database.ref('/user').remove(req.params.id)
+        .then(function () {
+          return res.status()
+        })
+      })
+
 module.exports = router
