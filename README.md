@@ -1,12 +1,11 @@
-# API FIREBASE
+# API FIREBASE - RESTful API in Node + Express + Firebase
 
-# RESTful API in Node + Express + Firebase
+RESTful API to doing the process of manipulations in queues of the Firebase
 
-Requirements
+# Requirements
 
 Node and npm
 
----
 # Dependencies
 
  - body-parser
@@ -14,7 +13,6 @@ Node and npm
  - firebase-admin
  - request
 
----
 
 # Testing the API
 
